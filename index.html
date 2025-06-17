@@ -12,7 +12,7 @@
             line-height: 1.5;
             max-width: 750px;
             margin: 60px auto;
-            font-size: 15px; /* 统一缩小一码 */
+            font-size: 14px;
         }
 
         h1 {
@@ -24,24 +24,32 @@
         .subtitle {
             color: #555;
             margin-bottom: 30px;
-            font-size: 15px; /* 和正文一致 */
             font-style: italic;
         }
 
-        .section {
-            margin-bottom: 40px;
+        .main-title {
+            font-weight: bold;
+            color: #003366;
+            margin-bottom: 10px;
         }
 
-        .section-title {
+        .sub-title {
             font-weight: bold;
-            color: #003366; /* 深蓝色 */
+            color: #B59557;
+            margin-top: 20px;
             margin-bottom: 10px;
+        }
+
+        .italic {
+            font-style: italic;
+            margin-bottom: 20px;
         }
 
         ul {
             list-style-type: disc;
             padding-left: 20px;
             margin-top: 10px;
+            margin-bottom: 20px;
         }
 
         li {
@@ -49,7 +57,7 @@
         }
 
         li::marker {
-            font-size: 1.2em; /* 放大 bullet point */
+            font-size: 1.2em;
         }
 
         a {
@@ -60,13 +68,8 @@
         hr {
             border: none;
             height: 1px;
-            background-color: #B59557; /* 金色细线 */
+            background-color: #B59557;
             margin: 40px 0;
-        }
-
-        .emoji-title {
-            margin-top: 20px;
-            margin-bottom: 10px;
         }
 
         .contact {
@@ -81,106 +84,96 @@
     <h1>Ziyi Michelle Liu</h1>
     <p class="subtitle">Driven by curiosity. Guided by conviction.</p>
 
-    <div class="section">
-        <strong>Base</strong><br>
-        Shanghai · New York · Zurich (potential)
-    </div>
+    <p class="main-title">Base</p>
+    <p>Shanghai · New York · Zurich (potential)</p>
 
     <hr>
 
-    <div class="section">
-        <div class="section-title">Education</div>
-        <ul>
-            <li>NYU, Business & Communications
-                <ul>
-                    <li>Dean’s List</li>
-                    <li><a href="https://www.nyusvs.org/">NYU Venture Society</a>, AI infrastructure & decentralized tech for scaling TMT ventures</li>
-                </ul>
-            </li>
-            <li>Columbia University, Technology Policy & Innovation Management
-                <ul>
-                    <li><a href="https://columbiaventurecommunity.com/">Columbia Venture Community</a>, Global Board Member</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    <p class="main-title">Education</p>
+    <ul>
+        <li>NYU, Business & Communications
+            <ul>
+                <li>Dean’s List</li>
+                <li><a href="https://www.nyusvs.org/">NYU Venture Society</a>, AI infrastructure & decentralized tech for scaling TMT ventures</li>
+            </ul>
+        </li>
+        <li>Columbia University, Technology Policy & Innovation Management
+            <ul>
+                <li><a href="https://columbiaventurecommunity.com/">Columbia Venture Community</a>, Global Board Member</li>
+            </ul>
+        </li>
+    </ul>
 
     <hr>
 
-    <div class="section">
-        <div class="section-title">VC & Tech</div>
-        Passionate about technology and innovation, focused on TMT (deeptech & software)
+    <p class="main-title">VC & Tech</p>
+    <p class="italic">Passionate about technology and innovation, focused on TMT (deeptech & software)</p>
 
-        <div class="emoji-title">💙 Building New VC</div>
-        <ul>
-            <li><a href="https://nycrobotics.org/">New York Robotics</a>, Co-founded <a href="https://nypost.com/2025/05/30/business/ny-tech-week-2025-sets-record-in-total-events-with-ai-and-robotics-in-the-limelight/">New York’s first dedicated robotics venture studio & incubator</a> from 200+ comparables</li>
-            <li><a href="https://www.mddionline.com/robotics/md-m-east-partners-with-new-york-robotics">Built Technology Ecosystem</a></li>
-        </ul>
+    <p class="sub-title">💙 Building New VC</p>
+    <ul>
+        <li><a href="https://nycrobotics.org/">New York Robotics</a>, Co-founded <a href="https://nypost.com/2025/05/30/business/ny-tech-week-2025-sets-record-in-total-events-with-ai-and-robotics-in-the-limelight/">New York’s first dedicated robotics venture studio & incubator</a> from 200+ comparables</li>
+        <li><a href="https://www.mddionline.com/robotics/md-m-east-partners-with-new-york-robotics">Built Technology Ecosystem</a></li>
+    </ul>
 
-        <div class="emoji-title">💙 Product is the core</div>
-        <ul>
-            <li>Deep Tech, <a href="https://demo-weblink.com/black-max/?ASDSF">Quadruped Robotics Studio</a> (Prof. Hod Lipson), MIT Robotics Essentials, SolidWorks</li>
-            <li>Software & Hardware, <a href="https://arshin.tax/">AI-powered wealth & tax management platform</a>, financial data onboarding, forward-looking analysis (OpenAI tool-calling + proprietary models), Full-stack (React/Node.js, GCP, Grafana)</li>
-        </ul>
+    <p class="sub-title">💙 Product is the core</p>
+    <ul>
+        <li>Deep Tech, <a href="https://demo-weblink.com/black-max/?ASDSF">Quadruped Robotics Studio</a> (Prof. Hod Lipson), MIT Robotics Essentials, SolidWorks</li>
+        <li>Software & Hardware, <a href="https://arshin.tax/">AI-powered wealth & tax management platform</a>, financial data onboarding, forward-looking analysis (OpenAI tool-calling + proprietary models), Full-stack (React/Node.js, GCP, Grafana)</li>
+    </ul>
 
-        <div class="emoji-title">💙 Operations</div>
-        <ul>
-            <li><a href="https://www.keyence.com/">Keyence Corporation</a> research & operations
-                <ul>
-                    <li>Apple-aligned operations management</li>
-                    <li>Global distributor events (IDEA & FILTEXPO, Miami)</li>
-                </ul>
-            </li>
-        </ul>
+    <p class="sub-title">💙 Operations</p>
+    <ul>
+        <li><a href="https://www.keyence.com/">Keyence Corporation</a> research & operations
+            <ul>
+                <li>Apple-aligned operations management</li>
+                <li>Global distributor events (IDEA & FILTEXPO, Miami)</li>
+            </ul>
+        </li>
+    </ul>
 
-        <div class="emoji-title">💙 Investment Experience</div>
-        <ul>
-            <li><a href="https://www.plugandplaytechcenter.com/">Plug and Play</a>, early-stage (vertical SaaS, AI agents, robotics), valuation modeling (IRR >20%, Monte Carlo, DCF, LTV/CAC), tech partnership</li>
-            <li><a href="https://gobi.vc/">Gobi Partners</a>, independently pitched humanoid robotics unicorn (Series B), tactile robotics IM (Hillhouse-led), eVTOL IM (FAA certification)</li>
-            <li><a href="https://crom-capital.com/">Crom Cortana Fund</a>, PE deal sourcing (5+ targets), DSCR analysis (1.83), gaming revenue projection ($40M+)</li>
-            <li><a href="https://www.goingvc.com/goingvc-partners">GoingVC Partners</a>, Vertical SaaS (fintech, legal tech), IRR 25%+</li>
-            <li>Goldman Sachs 2022 Virtual Insight Series</li>
-            <li>CFA Level 1 (May 2025)</li>
-        </ul>
+    <p class="sub-title">💙 Investment Experience</p>
+    <ul>
+        <li><a href="https://www.plugandplaytechcenter.com/">Plug and Play</a>, early-stage (vertical SaaS, AI agents, robotics), valuation modeling (IRR >20%, Monte Carlo, DCF, LTV/CAC), tech partnership</li>
+        <li><a href="https://gobi.vc/">Gobi Partners</a>, independently pitched humanoid robotics unicorn (Series B), tactile robotics IM (Hillhouse-led), eVTOL IM (FAA certification)</li>
+        <li><a href="https://crom-capital.com/">Crom Cortana Fund</a>, PE deal sourcing (5+ targets), DSCR analysis (1.83), gaming revenue projection ($40M+)</li>
+        <li><a href="https://www.goingvc.com/goingvc-partners">GoingVC Partners</a>, Vertical SaaS (fintech, legal tech), IRR 25%+</li>
+        <li>Goldman Sachs 2022 Virtual Insight Series</li>
+        <li>CFA Level 1 (May 2025)</li>
+    </ul>
 
-        <div class="emoji-title">💙 Currently exploring mediatech</div>
-        <ul>
-            <li>Columbia, AR/VR Newsroom Applications (Prof. Michael Schudson)</li>
-            <li>Exploring, <a href="https://brown.columbia.edu/">Brown Institute (Columbia-Stanford Media & AI Hub)</a></li>
-        </ul>
-    </div>
+    <p class="sub-title">💙 Currently exploring mediatech</p>
+    <ul>
+        <li>Columbia, AR/VR Newsroom Applications (Prof. Michael Schudson)</li>
+        <li>Exploring, <a href="https://brown.columbia.edu/">Brown Institute (Columbia-Stanford Media & AI Hub)</a></li>
+    </ul>
 
     <hr>
 
-    <div class="section">
-        <div class="section-title">Culture & Society</div>
-        Stories shaped by human hearts (mediatech, films, society)
+    <p class="main-title">Culture & Society</p>
+    <p class="italic">Stories shaped by human hearts (mediatech, films, society)</p>
 
-        <div class="emoji-title">🤍 Policy</div>
-        <ul>
-            <li>AI Ethics, Hyper-Realistic Robotics (Prof. Anya Schiffrin)</li>
-            <li><a href="https://igp.sipa.columbia.edu/">Institute of Global Politics</a>, Columbia University</li>
-            <li>AI Regulation & WTO Conflicts, ETH Zurich (Prof. Christina L. Davis)</li>
-        </ul>
+    <p class="sub-title">🤍 Policy</p>
+    <ul>
+        <li>AI Ethics, Hyper-Realistic Robotics (Prof. Anya Schiffrin)</li>
+        <li><a href="https://igp.sipa.columbia.edu/">Institute of Global Politics</a>, Columbia University</li>
+        <li>AI Regulation & WTO Conflicts, ETH Zurich (Prof. Christina L. Davis)</li>
+    </ul>
 
-        <div class="emoji-title">🤍 Films</div>
-        <ul>
-            <li><a href="https://www.filmlinc.org/">Film at Lincoln Center</a></li>
-            <li><a href="https://www.youtube.com/@ShanghaiEyeICS">Shanghai TV Station</a>, promotional materials 100K views</li>
-            <li>Delta Kappa Alpha, NYU</li>
-        </ul>
-    </div>
+    <p class="sub-title">🤍 Films</p>
+    <ul>
+        <li><a href="https://www.filmlinc.org/">Film at Lincoln Center</a></li>
+        <li><a href="https://www.youtube.com/@ShanghaiEyeICS">Shanghai TV Station</a>, promotional materials 100K views</li>
+        <li>Delta Kappa Alpha, NYU</li>
+    </ul>
 
     <hr>
 
-    <div class="section">
-        <div class="section-title">🐎 Nature is the dream</div>
-        <ul>
-            <li>NYU Equestrian</li>
-            <li>Columbia Equestrian</li>
-            <li>UK Guards Polo Handicap</li>
-        </ul>
-    </div>
+    <p class="main-title">🐎 Nature is the dream</p>
+    <ul>
+        <li>NYU Equestrian</li>
+        <li>Columbia Equestrian</li>
+        <li>UK Guards Polo Handicap</li>
+    </ul>
 
     <hr>
 
