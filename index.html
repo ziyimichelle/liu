@@ -3,153 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <title>Ziyi Michelle Liu</title>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica+Neue">
     <style>
         body {
-            font-family: 'Baskerville Old Face', 'Libre Baskerville', serif;
-            background-color: #ffffff;
-            color: #222222;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
             line-height: 1.5;
-            margin: 50px auto;
-            width: 800px;
+            max-width: 750px;
+            margin: 60px auto;
+            font-size: 15px; /* 统一缩小一码 */
         }
+
         h1 {
             color: #B59557;
-            font-size: 30px;
-            margin-bottom: 0;
+            font-size: 24px;
+            margin-bottom: 5px;
         }
+
         .subtitle {
-            font-size: 18px;
-            font-style: italic;
-            margin-top: 5px;
+            color: #555;
             margin-bottom: 30px;
+            font-size: 15px; /* 和正文一致 */
+            font-style: italic;
         }
-        a {
-            text-decoration: underline;
-            color: #1a0dab;
-        }
+
         .section {
-            margin-top: 40px;
+            margin-bottom: 40px;
         }
+
         .section-title {
-            font-weight: normal;
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-        .bullet {
-            margin-left: 20px;
-        }
-        .emoji-title {
-            margin-top: 30px;
+            font-weight: bold;
+            color: #003366; /* 深蓝色 */
             margin-bottom: 10px;
         }
-        .contact {
-            margin-top: 50px;
-            font-size: 16px;
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 10px;
         }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        li::marker {
+            font-size: 1.2em; /* 放大 bullet point */
+        }
+
+        a {
+            color: #003366;
+            text-decoration: underline;
+        }
+
         hr {
             border: none;
             height: 1px;
-            background-color: #B59557;
+            background-color: #B59557; /* 金色细线 */
             margin: 40px 0;
+        }
+
+        .emoji-title {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 14px;
+            margin-top: 30px;
         }
     </style>
 </head>
+
 <body>
 
     <h1>Ziyi Michelle Liu</h1>
     <p class="subtitle">Driven by curiosity. Guided by conviction.</p>
 
     <div class="section">
-        <p><strong>Base</strong><br>Shanghai · New York · Zurich (potential)</p>
+        <strong>Base</strong><br>
+        Shanghai · New York · Zurich (potential)
     </div>
 
     <hr>
 
     <div class="section">
-        <p class="section-title">Education</p>
-        <div class="bullet">
-            • NYU, Business & Communications<br>
-            &nbsp;&nbsp;Dean’s List<br>
-            &nbsp;&nbsp;<a href="https://www.nyusvs.org/">NYU Venture Society</a>, AI infrastructure & decentralized tech for scaling TMT ventures<br>
-            • Columbia University, Technology Policy & Innovation Management<br>
-            &nbsp;&nbsp;<a href="https://columbiaventurecommunity.com/">Columbia Venture Community</a>, Global Board Member
-        </div>
+        <div class="section-title">Education</div>
+        <ul>
+            <li>NYU, Business & Communications
+                <ul>
+                    <li>Dean’s List</li>
+                    <li><a href="https://www.nyusvs.org/">NYU Venture Society</a>, AI infrastructure & decentralized tech for scaling TMT ventures</li>
+                </ul>
+            </li>
+            <li>Columbia University, Technology Policy & Innovation Management
+                <ul>
+                    <li><a href="https://columbiaventurecommunity.com/">Columbia Venture Community</a>, Global Board Member</li>
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <hr>
 
     <div class="section">
-        <p class="section-title">VC & Tech</p>
-        <p>Passionate about technology and innovation, focused on TMT (deeptech & software)</p>
+        <div class="section-title">VC & Tech</div>
+        Passionate about technology and innovation, focused on TMT (deeptech & software)
 
-        <p class="emoji-title">💙 Building New VC</p>
-        <div class="bullet">
-            • <a href="https://nypost.com/2025/05/30/business/ny-tech-week-2025-sets-record-in-total-events-with-ai-and-robotics-in-the-limelight/">New York Robotics</a>, Co-founded <a href="https://nypost.com/2025/05/30/business/ny-tech-week-2025-sets-record-in-total-events-with-ai-and-robotics-in-the-limelight/">New York’s first dedicated robotics venture studio & incubator</a> from 200+ comparables<br>
-            • <a href="https://www.mddionline.com/robotics/md-m-east-partners-with-new-york-robotics">Built Technology Ecosystem</a>
-        </div>
+        <div class="emoji-title">💙 Building New VC</div>
+        <ul>
+            <li><a href="https://nycrobotics.org/">New York Robotics</a>, Co-founded <a href="https://nypost.com/2025/05/30/business/ny-tech-week-2025-sets-record-in-total-events-with-ai-and-robotics-in-the-limelight/">New York’s first dedicated robotics venture studio & incubator</a> from 200+ comparables</li>
+            <li><a href="https://www.mddionline.com/robotics/md-m-east-partners-with-new-york-robotics">Built Technology Ecosystem</a></li>
+        </ul>
 
-        <p class="emoji-title">💙 Product is the core</p>
-        <div class="bullet">
-            • Deep Tech, <a href="https://demo-weblink.com/black-max/?ASDSF">Quadruped Robotics Studio</a> (Prof. Hod Lipson), MIT Robotics Essentials, SolidWorks<br>
-            • Software & Hardware, <a href="https://arshin.tax/">AI-powered wealth & tax management platform</a>, financial data onboarding, forward-looking analysis (OpenAI tool-calling + proprietary models), Full-stack (React/Node.js, GCP, Grafana)
-        </div>
+        <div class="emoji-title">💙 Product is the core</div>
+        <ul>
+            <li>Deep Tech, <a href="https://demo-weblink.com/black-max/?ASDSF">Quadruped Robotics Studio</a> (Prof. Hod Lipson), MIT Robotics Essentials, SolidWorks</li>
+            <li>Software & Hardware, <a href="https://arshin.tax/">AI-powered wealth & tax management platform</a>, financial data onboarding, forward-looking analysis (OpenAI tool-calling + proprietary models), Full-stack (React/Node.js, GCP, Grafana)</li>
+        </ul>
 
-        <p class="emoji-title">💙 Operations</p>
-        <div class="bullet">
-            • <a href="https://www.keyence.com/">Keyence Corporation</a> research & operations<br>
-            &nbsp;&nbsp;Apple-aligned operations management<br>
-            &nbsp;&nbsp;Global distributor events (IDEA & FILTEXPO, Miami)
-        </div>
+        <div class="emoji-title">💙 Operations</div>
+        <ul>
+            <li><a href="https://www.keyence.com/">Keyence Corporation</a> research & operations
+                <ul>
+                    <li>Apple-aligned operations management</li>
+                    <li>Global distributor events (IDEA & FILTEXPO, Miami)</li>
+                </ul>
+            </li>
+        </ul>
 
-        <p class="emoji-title">💙 Investment Experience</p>
-        <div class="bullet">
-            • <a href="https://www.plugandplaytechcenter.com/">Plug and Play</a>, early-stage (vertical SaaS, AI agents, robotics), valuation modeling (IRR >20%, Monte Carlo, DCF, LTV/CAC), tech partnership<br>
-            • <a href="https://gobi.vc/">Gobi Partners</a>, independently pitched humanoid robotics unicorn (Series B), tactile robotics IM (Hillhouse-led), eVTOL IM (FAA certification)<br>
-            • <a href="https://crom-capital.com/">Crom Cortana Fund</a>, PE deal sourcing (5+ targets), DSCR analysis (1.83), gaming revenue projection ($40M+)<br>
-            • <a href="https://www.goingvc.com/goingvc-partners">GoingVC Partners</a>, Vertical SaaS (fintech, legal tech), IRR 25%+<br>
-            • Goldman Sachs 2022 Virtual Insight Series<br>
-            • CFA Level 1 (May 2025)
-        </div>
+        <div class="emoji-title">💙 Investment Experience</div>
+        <ul>
+            <li><a href="https://www.plugandplaytechcenter.com/">Plug and Play</a>, early-stage (vertical SaaS, AI agents, robotics), valuation modeling (IRR >20%, Monte Carlo, DCF, LTV/CAC), tech partnership</li>
+            <li><a href="https://gobi.vc/">Gobi Partners</a>, independently pitched humanoid robotics unicorn (Series B), tactile robotics IM (Hillhouse-led), eVTOL IM (FAA certification)</li>
+            <li><a href="https://crom-capital.com/">Crom Cortana Fund</a>, PE deal sourcing (5+ targets), DSCR analysis (1.83), gaming revenue projection ($40M+)</li>
+            <li><a href="https://www.goingvc.com/goingvc-partners">GoingVC Partners</a>, Vertical SaaS (fintech, legal tech), IRR 25%+</li>
+            <li>Goldman Sachs 2022 Virtual Insight Series</li>
+            <li>CFA Level 1 (May 2025)</li>
+        </ul>
 
-        <p class="emoji-title">💙 Currently exploring mediatech</p>
-        <div class="bullet">
-            • Columbia, AR/VR Newsroom Applications (Prof. Michael Schudson)<br>
-            • Exploring, <a href="https://brown.columbia.edu/">Brown Institute (Columbia-Stanford Media & AI Hub)</a>
-        </div>
+        <div class="emoji-title">💙 Currently exploring mediatech</div>
+        <ul>
+            <li>Columbia, AR/VR Newsroom Applications (Prof. Michael Schudson)</li>
+            <li>Exploring, <a href="https://brown.columbia.edu/">Brown Institute (Columbia-Stanford Media & AI Hub)</a></li>
+        </ul>
     </div>
 
     <hr>
 
     <div class="section">
-        <p class="section-title">Culture & Society</p>
+        <div class="section-title">Culture & Society</div>
         Stories shaped by human hearts (mediatech, films, society)
 
-        <p class="emoji-title">🤍 Policy</p>
-        <div class="bullet">
-            • AI Ethics, Hyper-Realistic Robotics (Prof. Anya Schiffrin)<br>
-            • <a href="https://igp.sipa.columbia.edu/">Institute of Global Politics</a>, Columbia University<br>
-            • AI Regulation & WTO Conflicts, ETH Zurich (Prof. Christina L. Davis)
-        </div>
+        <div class="emoji-title">🤍 Policy</div>
+        <ul>
+            <li>AI Ethics, Hyper-Realistic Robotics (Prof. Anya Schiffrin)</li>
+            <li><a href="https://igp.sipa.columbia.edu/">Institute of Global Politics</a>, Columbia University</li>
+            <li>AI Regulation & WTO Conflicts, ETH Zurich (Prof. Christina L. Davis)</li>
+        </ul>
 
-        <p class="emoji-title">🤍 Films</p>
-        <div class="bullet">
-            • <a href="https://www.filmlinc.org/">Film at Lincoln Center</a><br>
-            • <a href="https://www.youtube.com/@ShanghaiEyeICS">Shanghai TV Station</a>, promotional materials 100K views<br>
-            • Delta Kappa Alpha, NYU
-        </div>
+        <div class="emoji-title">🤍 Films</div>
+        <ul>
+            <li><a href="https://www.filmlinc.org/">Film at Lincoln Center</a></li>
+            <li><a href="https://www.youtube.com/@ShanghaiEyeICS">Shanghai TV Station</a>, promotional materials 100K views</li>
+            <li>Delta Kappa Alpha, NYU</li>
+        </ul>
     </div>
 
     <hr>
 
     <div class="section">
-        <p class="section-title">🐎 Nature is the dream</p>
-        <div class="bullet">
-            • NYU Equestrian<br>
-            • Columbia Equestrian<br>
-            • UK Guards Polo Handicap
-        </div>
+        <div class="section-title">🐎 Nature is the dream</div>
+        <ul>
+            <li>NYU Equestrian</li>
+            <li>Columbia Equestrian</li>
+            <li>UK Guards Polo Handicap</li>
+        </ul>
     </div>
+
+    <hr>
 
     <div class="contact">
         📧 <a href="mailto:michelleliu09890@gmail.com">michelleliu09890@gmail.com</a> :)
