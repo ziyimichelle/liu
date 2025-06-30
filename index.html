@@ -48,19 +48,17 @@
             margin-bottom: 25px;
         }
 
-        h2 {
+        .main-title {
             font-weight: bold;
             color: #003366; /* 深蓝色 */
             margin-bottom: 10px;
-            font-size: 20px;
         }
 
-        h3 {
+        .sub-title {
             font-weight: bold;
             color: #B59557; /* 金色 */
             margin-top: 20px;
             margin-bottom: 10px;
-            font-size: 18px;
         }
 
         .italic {
@@ -95,9 +93,51 @@
             margin: 40px 0;
         }
 
-        .contact {
+        .contacts {
             font-size: 15px;
             margin-top: 30px;
+        }
+        
+        /* Mobile styles for phones */
+        @media (max-width: 450px) {
+            body {
+                margin: 30px auto;
+            }
+            
+            h1 {
+                font-size: 20px;
+                margin-bottom: 3px;
+            }
+            
+            .subtitle {
+                margin-bottom: 15px;
+            }
+            
+            .main-title {
+                margin-bottom: 5px;
+            }
+            
+            .sub-title {
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            
+            .italic {
+                margin-bottom: 10px;
+            }
+            
+            ul {
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+            
+            hr {
+                margin: 25px 0;
+            }
+            
+            .contacts {
+                margin-top: 20px;
+            }
         }
     </style>
     
@@ -142,12 +182,12 @@
     <h1>Ziyi Michelle Liu</h1>
     <p class="subtitle">💙 Driven by curiosity. Guided by conviction.</p>
 
-    <h2>Base</h2>
+    <p class="main-title">Base</p>
     <p>Shanghai · New York · Zurich </p>
 
     <hr>
 
-    <h2>Education</h2>
+    <p class="main-title">Education</p>
     <ul>
         <li>NYU, Business & Communications (2020 - 2024)
             <ul>
@@ -164,22 +204,22 @@
 
     <hr>
 
-    <h2>VC & Tech</h2>
+    <p class="main-title">VC & Tech</p>
     <p class="italic">Passionate about technology and innovation, focused on TMT (deeptech & software)</p>
 
-    <h3>💙 Building New VC</h3>
+    <p class="sub-title">💙 Building New VC</p>
     <ul>
         <li><a href="https://nycrobotics.org/">New York Robotics</a>, Co-founded <a href="https://nypost.com/2025/05/30/business/ny-tech-week-2025-sets-record-in-total-events-with-ai-and-robotics-in-the-limelight/">New York’s first dedicated robotics venture studio & incubator</a> (200+ global comparables)</li>
         <li><a href="https://www.mddionline.com/robotics/md-m-east-partners-with-new-york-robotics">Built Technology Ecosystem</a></li>
     </ul>
 
-    <h3>💙 Product is the core</h3>
+    <p class="sub-title">💙 Product is the core</p>
     <ul>
         <li>DeepTech, <a href="https://demo-weblink.com/black-max/?ASDSF">Quadruped Robotics Studio</a> (Prof. Hod Lipson), MIT Robotics Essentials, SolidWorks</li>
         <li>Software, <a href="https://arshin.tax/">AI-powered wealth & tax management platform</a>, financial data onboarding, forward-looking analysis (OpenAI tool-calling + proprietary models), full-stack (React/Node.js, GCP, Grafana)</li>
     </ul>
 
-    <h3>💙 Operations</h3>
+    <p class="sub-title">💙 Operations</p>
     <ul>
         <li><a href="https://www.keyence.com/">Keyence Corporation</a> research & operations
             <ul>
@@ -189,7 +229,7 @@
         </li>
     </ul>
 
-    <h3>💙 Investment Experience</h3>
+    <p class="sub-title">💙 Investment Experience</p>
     <ul>
         <li><a href="https://www.plugandplaytechcenter.com/">Plug and Play</a>, early-stage (vertical SaaS, AI agents, robotics), valuation modeling (IRR >20%, Monte Carlo, DCF, LTV/CAC), tech partnership</li>
         <li><a href="https://gobi.vc/">Gobi Partners</a>, independently pitched humanoid robotics unicorn (Series B), tactile robotics IM (Hillhouse-led), eVTOL IM (FAA certification)</li>
@@ -199,7 +239,7 @@
         <li>CFA Level 1 (May 2025)</li>
     </ul>
 
-    <h3>💙 1+ YOE in Mediatech</h3>
+    <p class="sub-title">💙 1+ YOE in Mediatech</p>
     <ul>
         <li>Columbia, AR/VR Newsroom Applications (Prof. Michael Schudson)</li>
         <li>Exploring, <a href="https://brown.columbia.edu/">Brown Institute (Columbia-Stanford Media & AI Hub)</a></li>
@@ -207,17 +247,17 @@
 
     <hr>
 
-    <h2>Culture & Society</h2>
+    <p class="main-title">Culture & Society</p>
     <p class="italic">Stories shaped by human hearts (mediatech, films, society)</p>
 
-    <h3>🤍 Policy</h3>
+    <p class="sub-title">🤍 Policy</p>
     <ul>
         <li>AI Ethics, Hyper-Realistic Robotics (Prof. Anya Schiffrin)</li>
         <li><a href="https://igp.sipa.columbia.edu/">Institute of Global Politics</a>, Columbia University</li>
         <li>AI Regulation & WTO Conflicts, ETH Zurich (Prof. Christina L. Davis)</li>
     </ul>
 
-    <h3>🤍 Films</h3>
+    <p class="sub-title">🤍 Films</p>
     <ul>
         <li><a href="https://www.filmlinc.org/">Film at Lincoln Center</a></li>
         <li><a href="https://www.youtube.com/@ShanghaiEyeICS">Shanghai TV Station</a>, promotional materials 100K+ views</li>
@@ -226,7 +266,7 @@
 
     <hr>
 
-    <h2>🐎 Nature is the dream</h2>
+    <p class="main-title">🐎 Nature is the dream</p>
     <ul>
         <li>NYU Equestrian</li>
         <li>Columbia Equestrian</li>
